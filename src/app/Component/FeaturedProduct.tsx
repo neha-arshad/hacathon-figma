@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FaCartPlus } from "react-icons/fa"; // Importing the cart icon from react-icons
+
 
 const FeaturedProduct = () => {
   // Array of featured products
@@ -10,14 +10,14 @@ const FeaturedProduct = () => {
       description: "Library Stool Chair",
       image: "/Images/Image.png",
       price: "$20",
-      label: "New", // Label for the first product
+      label: "New", 
     },
     {
       id: 2,
       description: "Library Stool Chair",
       image: "/Images/Image1.png",
       price: "$20",
-      label: "Sale", // Label for the second product
+      label: "Sale", 
     },
     {
       id: 3,
